@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Goodness Ifeanyi | Developer Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(-45deg, orange, purple, blue, pink);
+            background-size: 400% 400%;
+            animation: gradientMove 8s ease infinite;
+            color: white;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 { margin-top: 40px; font-size: 40px; }
+        h2, h3 { margin: 10px 0; }
+
+        img {
+            width: 180px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-top: 20px;
+        }
+
+        .container { padding: 20px; }
+        .skills, .projects, .contact { margin-top: 60px; font-size: 18px; }
+
+        button {
+            margin-top: 25px;
+            background-color: white;
+            color: purple;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: yellow;
+            color: black;
+            transform: scale(1.1);
+        }
+
+        a {
+            color: yellow;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover { color: lightgreen; }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Goodness Ifeanyi</h1>
+    <h3>🚀 Future Software Developer</h3>
+
+    <!-- Replace this with your real image link -->
+    <img src="https://i.postimg.cc/RCG9wmwP/IMG-0328-jpg-1.jpg" alt="Goodness Ifeanyi">
+
+    <p>
+        I started coding with just my phone 📱  
+        Watch me grow into a professional developer!
+    </p>
+
+    <button onclick="scrollToSkills()">Work With Me</button>
+
+    <div class="skills">
+        <h2>My Skills</h2>
+        <p>HTML ✅</p>
+        <p>CSS ✅</p>
+        <p>JavaScript 🚀 (Learning)</p>
+    </div>
+
+    <div class="projects">
+        <h2>My Projects</h2>
+        <p>Portfolio Website 🌐</p>
+        <p>Small Business Websites 💻</p>
+        <p>Interactive Apps 📱</p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto: chimdikeyoung22@gmail.com">goo>chimdikeyoung22@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/2349077415877" target="_blank">+2349077415877</a></p>
+        <p>GitHub: <a href="https:https://github.com/chimdikeyoung22-debug/Portfolio-.git" target="_blank">https://github.com/chimdikeyoung22-debug/Portfolio-.github/GoodnessIfeanyi</a></p>
+    </div>
+</div>
+
+<script>
+function scrollToSkills() {
+    document.querySelector(".skills").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+</script>
+
+</body>
+</html>
